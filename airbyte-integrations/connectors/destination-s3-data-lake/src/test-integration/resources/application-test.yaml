@@ -1,0 +1,7 @@
+airbyte:
+  destination:
+    core:
+      load-pipeline:
+        strategy: direct
+        input-parts: 1
+      checkpoint-by-id: true
